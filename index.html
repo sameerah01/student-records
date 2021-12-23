@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <header>Student Record</header>
+    <form>
+      <input type="text" class="search-record" placeholder="Search">
+    </form>
+    <table>
+      <tr>
+        <th>Student Name <button class="arrowbtn"><i class="arrow up"></i></button> <button class="arrowbtn"><i class="arrow down"></i></button> </th>
+        <th>Subject</th>
+        <th>Marks</th>
+      </tr>
+    </table>
+    <button class="add-Button">+</button>
+    <dialog class="new-Record">
+    <form class="dialogbox-form">
+      <input type="text" class="name" placeholder="Name">
+      <input type="text" class="subject" placeholder="Subject">
+      <input type="number" class="marks" placeholder="Marks">
+      <button class="save-Input" type="submit">Save </button>
+    </form>
+  </dialog>
+    <script src="./script.js"></script>
+  </body>
+</html>
